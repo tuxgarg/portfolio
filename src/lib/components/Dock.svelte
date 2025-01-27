@@ -111,12 +111,12 @@
     <img src={github} alt="Github" class="h-12 w-12" />
   </div>
 
-  <div class="dock-item" on:click={() => handleDockClick("urhome")}>
+  <!-- <div class="dock-item" on:click={() => handleDockClick("urhome")}>
     <img src={urhome} alt="Clave" class="h-10 w-10" />
-  </div>
+  </div> -->
 
   <div class="dock-item" on:click={() => handleDockClick("download-resume")}>
-    <a href="/resume.pdf" download="Tushar_Garg_Resume.pdf">
+    <a href="/Tushar_Resume.pdf" download="Tushar_Garg_Resume.pdf">
       <img src={pdf} alt="Resume" class="h-10 w-10" />
     </a>
   </div>
